@@ -1,0 +1,32 @@
+main {
+    background-color : #f0faf8;
+    height: 800px;
+    padding          : 40px 35px 0px 35px;
+}
+
+
+
+
+
+@media only screen
+and (max-device-width : 1197px)
+{
+    main section:first-child, section:last-of-type{
+        width: 100%;
+    }
+    main{
+        height: 1100px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+

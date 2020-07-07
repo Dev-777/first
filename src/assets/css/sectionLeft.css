@@ -1,0 +1,72 @@
+.section-left {
+    width            : 49%;
+    height           : 500px;
+    background-color : white;
+    line-height      : 40px;
+    border-radius    : 10px;
+    overflow         : auto;
+    padding          : 0px 25px 0px 25px;
+}
+
+.section-left .arrow {
+    border       : solid darkgray;
+    border-width : 0 2px 2px 0;
+    display      : inline-block;
+    padding      : 2px;
+    margin-left  : 5px;
+}
+
+.section-left .down {
+    transform         : rotate(45deg);
+    -webkit-transform : rotate(45deg);
+}
+
+.section-left .play-icon {
+    font-size        : 10px;
+    padding          : 8px;
+    background-color : #e8e9ec;
+    border-radius    : 7px;
+    color            : #646d82;
+}
+
+
+.section-left input {
+    height : 16px;
+    border : 1px solid green;
+}
+.section-left .one {
+    padding-top: 8px;
+}
+
+.section-left .table-container p {
+    line-height: 16px;
+    padding-top: 18px;
+}
+
+
+/**/
+@media only screen
+and (max-device-width : 1920px)
+and (min-device-height : 1080px) {
+
+}
+
+@media only screen
+and (max-device-width : 1024px)
+and (min-device-height : 768px) {
+    .section-left {
+
+    }
+}
+
+
+.section-left .table-container {
+    border-bottom : 1px solid #d4d8d7;
+    height        : 40px;
+    padding       : 0px;
+}
+
+.section-left .table-container img {
+    width  : 50px;
+    height : 30px;
+}

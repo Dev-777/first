@@ -1,0 +1,110 @@
+.section-right {
+    width            : 49%;
+    height           : 500px;
+    border-radius    : 10px;
+    background-color : white;
+    padding          : 0px 10px 0px 10px;
+}
+
+.section-right .play-icon {
+    font-size        : 10px;
+    padding          : 8px;
+    background-color : #e8e9ec;
+    border-radius    : 7px;
+    color            : #646d82;
+}
+
+.section-right .clusters-container {
+    padding     : 15px;
+    line-height : 35px;
+}
+
+.section-right .btn-clusters {
+    border-radius    : 5px;
+    padding          : 7px 15px 7px 15px;
+    font-size        : 15px;
+    background-color : #5cd888;
+    color            : #feffff;
+
+}
+
+.section-right .cards-container {
+    padding : 15px;
+}
+
+.section-right .cards-container > div {
+    padding       : 20px;
+    color         : white;
+    height        : 100px;
+    border-radius : 6px;
+}
+
+.section-right .card-one {
+    background-color : #5cd888;
+    color            : #ffffff;
+}
+
+.section-right .card-two {
+    background-color : #ee6363;
+    color            : #ffffff;
+}
+
+.section-right .card-three {
+    background-color : #5cd888;
+    color            : #ffffff;
+}
+
+.section-right .table-container {
+    border-bottom : 1px solid #d4d8d7;
+    height        : 50px;
+    padding       : 8px 0px 0px 0px;
+
+}
+
+
+.section-right .table-container img {
+    width  : 50px;
+    height : 30px;
+}
+
+.section-right .section-left input {
+    height : 16px;
+    border : 1px solid green;
+
+}
+
+.section-right .play-icon {
+    font-size        : 10px;
+    padding          : 8px;
+    background-color : #e8e9ec;
+    border-radius    : 7px;
+    color            : #646d82;
+}
+
+.section-right-table-container {
+    line-height : 40px;
+    overflow         : auto;
+}
+
+.section-right .table-container p {
+    line-height: 16px;
+    padding-top: 18px;
+}
+
+
+
+/**/
+@media only screen
+and (max-device-width : 1000px)
+ {
+#three {
+
+    background-color: red;
+}
+}
+
+@media only screen
+and (max-device-width : 1500px)
+and (min-device-width : 1300px) {
+
+}
